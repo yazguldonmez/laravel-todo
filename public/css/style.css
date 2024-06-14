@@ -1,0 +1,18 @@
+:root {
+    --h1-normal: 1.7rem;
+}
+h1 {
+    font-size: var(--h1-normal);
+    text-align: center;
+}
+section {
+    height: 100vh;
+}
+.login .row, .register .row{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+button[type*='submit'] {
+    width: 100% !important;
+}
